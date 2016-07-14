@@ -24,7 +24,7 @@ apt-get install -y \
 # Skeleton / dirs
 for dir in /home/ci/.ssh/; do
   mkdir -p ${dir}
-  chmod ${dir} 700
+  chmod 700 ${dir}
   chown -R ci:ci ${dir}
 done
 
