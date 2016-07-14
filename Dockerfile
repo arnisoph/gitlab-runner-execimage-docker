@@ -5,6 +5,6 @@ COPY build /build
 
 RUN \
   /bin/bash /build && \
-  rm -r /build
+  rm /build
 
 USER ci
